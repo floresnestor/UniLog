@@ -1,0 +1,12 @@
+perl googletts-cli.pl -q -l es -t "para volver al menú, ingrese uno"
+
+
+
+hacer checksum del texto
+chequear si el archivo existe
+si existe, retornar el checksum (${MD5}.wav)
+no existe, correr el comando 
+	perl googletts-cli.pl -o /var/lib/asterisk/sounds/Google/${MD5}.wav -l es -t "para volver al menú, ingrese uno"
+
+
+
